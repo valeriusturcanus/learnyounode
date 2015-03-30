@@ -1,0 +1,166 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'functional-javascript-workshop' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ '-', null ]
+6 verbose cache add name=undefined spec="-" args=["-",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '-',
+7 verbose parsed url   path: '-',
+7 verbose parsed url   href: '-' }
+8 verbose cache add [ 'functional-javascript-workshop', null ]
+9 verbose cache add name=undefined spec="functional-javascript-workshop" args=["functional-javascript-workshop",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'functional-javascript-workshop',
+10 verbose parsed url   path: 'functional-javascript-workshop',
+10 verbose parsed url   href: 'functional-javascript-workshop' }
+11 silly lockFile 3bc15c8a- -
+12 verbose lock - /home/valeriu/.npm/3bc15c8a-.lock
+13 silly lockFile 2f070ebf-functional-javascript-workshop functional-javascript-workshop
+14 verbose lock functional-javascript-workshop /home/valeriu/.npm/2f070ebf-functional-javascript-workshop.lock
+15 silly lockFile 3bc15c8a- -
+16 silly lockFile 3bc15c8a- -
+17 silly lockFile 2f070ebf-functional-javascript-workshop functional-javascript-workshop
+18 silly lockFile 2f070ebf-functional-javascript-workshop functional-javascript-workshop
+19 verbose addNamed [ '-', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile c75fe0d4- -@
+22 verbose lock -@ /home/valeriu/.npm/c75fe0d4-.lock
+23 verbose addNamed [ 'functional-javascript-workshop', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile a0e8fb37-functional-javascript-workshop functional-javascript-workshop@
+26 verbose lock functional-javascript-workshop@ /home/valeriu/.npm/a0e8fb37-functional-javascript-workshop.lock
+27 silly addNameRange { name: '-', range: '*', hasData: false }
+28 silly addNameRange { name: 'functional-javascript-workshop',
+28 silly addNameRange   range: '*',
+28 silly addNameRange   hasData: false }
+29 verbose request where is /-
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id aa5b419cdcfab5de
+32 verbose url raw /-
+33 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+34 verbose url resolved https://registry.npmjs.org/-
+35 verbose request where is https://registry.npmjs.org/-
+36 info trying registry request attempt 1 at 15:31:37
+37 http GET https://registry.npmjs.org/-
+38 verbose request where is /functional-javascript-workshop
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /functional-javascript-workshop
+41 verbose url resolving [ 'https://registry.npmjs.org/',
+41 verbose url resolving   './functional-javascript-workshop' ]
+42 verbose url resolved https://registry.npmjs.org/functional-javascript-workshop
+43 verbose request where is https://registry.npmjs.org/functional-javascript-workshop
+44 info trying registry request attempt 1 at 15:31:37
+45 http GET https://registry.npmjs.org/functional-javascript-workshop
+46 http 404 https://registry.npmjs.org/-
+47 silly registry.get cb [ 404,
+47 silly registry.get   { date: 'Thu, 19 Mar 2015 15:31:38 GMT',
+47 silly registry.get     server: 'Apache',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'cache-control': 'max-age=0',
+47 silly registry.get     'content-length': '57',
+47 silly registry.get     'accept-ranges': 'bytes',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     age: '0',
+47 silly registry.get     'x-served-by': 'cache-lhr6331-LHR',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1426779098.486410,VS0,VE78',
+47 silly registry.get     'keep-alive': 'timeout=10, max=50',
+47 silly registry.get     connection: 'Keep-Alive' } ]
+48 silly lockFile c75fe0d4- -@
+49 silly lockFile c75fe0d4- -@
+50 http 200 https://registry.npmjs.org/functional-javascript-workshop
+51 silly registry.get cb [ 200,
+51 silly registry.get   { date: 'Thu, 19 Mar 2015 15:31:38 GMT',
+51 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     etag: '"C3ILKWJUE73HEJAZ75LH44E1"',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     'content-length': '28085',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     'x-served-by': 'cache-lhr6323-LHR',
+51 silly registry.get     'x-cache': 'MISS',
+51 silly registry.get     'x-cache-hits': '0',
+51 silly registry.get     'x-timer': 'S1426779098.486443,VS0,VE175',
+51 silly registry.get     vary: 'Accept',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 silly addNameRange number 2 { name: 'functional-javascript-workshop',
+52 silly addNameRange   range: '*',
+52 silly addNameRange   hasData: true }
+53 silly addNameRange versions [ 'functional-javascript-workshop',
+53 silly addNameRange   [ '0.0.0',
+53 silly addNameRange     '0.0.1',
+53 silly addNameRange     '0.0.2',
+53 silly addNameRange     '0.0.4',
+53 silly addNameRange     '0.0.7',
+53 silly addNameRange     '0.0.8',
+53 silly addNameRange     '0.0.9',
+53 silly addNameRange     '0.0.10',
+53 silly addNameRange     '0.0.11',
+53 silly addNameRange     '0.0.12',
+53 silly addNameRange     '0.0.13',
+53 silly addNameRange     '0.0.14',
+53 silly addNameRange     '0.0.15',
+53 silly addNameRange     '0.0.17',
+53 silly addNameRange     '0.0.18',
+53 silly addNameRange     '0.0.19',
+53 silly addNameRange     '0.0.20',
+53 silly addNameRange     '0.0.21',
+53 silly addNameRange     '0.0.22',
+53 silly addNameRange     '0.0.23',
+53 silly addNameRange     '0.0.24',
+53 silly addNameRange     '0.0.25',
+53 silly addNameRange     '0.0.26',
+53 silly addNameRange     '0.0.27',
+53 silly addNameRange     '0.0.28' ] ]
+54 verbose addNamed [ 'functional-javascript-workshop', '0.0.28' ]
+55 verbose addNamed [ '0.0.28', '0.0.28' ]
+56 silly lockFile 412d3134-ional-javascript-workshop-0-0-28 functional-javascript-workshop@0.0.28
+57 verbose lock functional-javascript-workshop@0.0.28 /home/valeriu/.npm/412d3134-ional-javascript-workshop-0-0-28.lock
+58 silly lockFile 408a44e8-l-javascript-workshop-0-0-28-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz
+59 verbose lock https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz /home/valeriu/.npm/408a44e8-l-javascript-workshop-0-0-28-tgz.lock
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz',
+60 verbose addRemoteTarball   '8fb35a8487f842ed799593e2b7cd4f4982987d41' ]
+61 info retry fetch attempt 1 at 15:31:38
+62 verbose fetch to= /tmp/npm-3981-GVjhKLqw/registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz
+63 http GET https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz
+64 http 200 https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz
+65 silly lockFile 408a44e8-l-javascript-workshop-0-0-28-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz
+66 silly lockFile 408a44e8-l-javascript-workshop-0-0-28-tgz https://registry.npmjs.org/functional-javascript-workshop/-/functional-javascript-workshop-0.0.28.tgz
+67 silly lockFile 412d3134-ional-javascript-workshop-0-0-28 functional-javascript-workshop@0.0.28
+68 silly lockFile 412d3134-ional-javascript-workshop-0-0-28 functional-javascript-workshop@0.0.28
+69 silly lockFile a0e8fb37-functional-javascript-workshop functional-javascript-workshop@
+70 silly lockFile a0e8fb37-functional-javascript-workshop functional-javascript-workshop@
+71 error 404 Not Found
+72 error System Linux 3.16.0-31-generic
+73 error command "/usr/bin/node" "/usr/bin/npm" "install" "-" "functional-javascript-workshop"
+74 error cwd /home/valeriu/137gb/javascripting/learnyounode
+75 error node -v v0.10.37
+76 error npm -v 1.4.28
+77 error code E404
+78 verbose exit [ 1, true ]
